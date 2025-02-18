@@ -3,14 +3,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '@easya/layer-ui-react',
+  title: 'EasyA Layer React UI',
   tagline: 'Build Web3 Applications with Ease',
   favicon: 'img/favicon.ico',
 
-  url: 'https://rahiche.github.io',
-  baseUrl: '/easya-react-docs/',
-  organizationName: 'Rahiche', // Your GitHub username
-  projectName: 'easya-react-docs', // Your repository name
+  url: 'https://easya-tech.github.io',
+  baseUrl: '/easya-layer-react-docs/',
+  organizationName: 'easya-tech', // Your GitHub username
+  projectName: 'easya-layer-react-docs', // Your repository name
   deploymentBranch: 'gh-pages', // The branch to deploy to
   trailingSlash: false,
 
