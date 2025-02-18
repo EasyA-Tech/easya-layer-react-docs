@@ -1,1 +1,2 @@
-# easya-layer-react-docs
+# easya-react-docs
+ 
