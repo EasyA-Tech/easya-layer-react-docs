@@ -1,0 +1,85 @@
+/**
+ * A modern, sophisticated palette designed for blockchain and Web3 applications
+ */
+
+ :root {
+  /* Primary color: Rich Purple */
+  --ifm-color-primary: #8250ff;
+  --ifm-color-primary-dark: #7037ff;
+  --ifm-color-primary-darker: #6528ff;
+  --ifm-color-primary-darkest: #4d00fa;
+  --ifm-color-primary-light: #9469ff;
+  --ifm-color-primary-lighter: #9f78ff;
+  --ifm-color-primary-lightest: #bda0ff;
+  
+  /* Base theme colors */
+  --ifm-background-color: #0a0b0f;
+  --ifm-background-surface-color: #13141a;
+  --ifm-navbar-background-color: rgba(19, 20, 26, 0.8);
+  
+  /* Typography */
+  --ifm-font-color-base: #e3e4e8;
+  --ifm-code-font-size: 95%;
+  --ifm-heading-color: #ffffff;
+  
+  /* Accents */
+  --accent-blue: #3d7eff;
+  --accent-cyan: #00e5ff;
+  --accent-pink: #ff3d9a;
+  
+  /* Code blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(99, 99, 255, 0.15);
+  --ifm-code-background: #1a1b23;
+}
+
+[data-theme='dark'] {
+  /* Primary gradients */
+  --ifm-color-primary: #8250ff;
+  --ifm-color-primary-dark: #7037ff;
+  --ifm-color-primary-darker: #6528ff;
+  --ifm-color-primary-darkest: #4d00fa;
+  --ifm-color-primary-light: #9469ff;
+  --ifm-color-primary-lighter: #9f78ff;
+  --ifm-color-primary-lightest: #bda0ff;
+  
+  /* Dark mode specific overrides */
+  --ifm-background-color: #0a0b0f;
+  --ifm-background-surface-color: #13141a;
+  --ifm-navbar-background-color: rgba(19, 20, 26, 0.95);
+  --ifm-dropdown-background-color: #1a1b23;
+  --ifm-card-background-color: #13141a;
+  
+  /* Interactive elements */
+  --ifm-link-color: #9469ff;
+  --ifm-link-hover-color: #bda0ff;
+  --ifm-menu-color-active: #9469ff;
+  --ifm-breadcrumb-color-active: #9469ff;
+  
+  /* Code and syntax highlighting */
+  --docusaurus-highlighted-code-line-bg: rgba(99, 99, 255, 0.15);
+  --ifm-code-background: #1a1b23;
+  --ifm-pre-background: #1a1b23;
+}
+
+/* Enhanced glass-morphism effects */
+.navbar {
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(130, 80, 255, 0.1);
+}
+
+/* Gradient accents for interactive elements */
+.button--primary:not(.button--outline) {
+  background: linear-gradient(135deg, #8250ff 0%, #4d00fa 100%);
+  border: none;
+}
+
+.button--primary:not(.button--outline):hover {
+  background: linear-gradient(135deg, #9469ff 0%, #6528ff 100%);
+}
+
+/* Card enhancements */
+.card {
+  border: 1px solid rgba(130, 80, 255, 0.1);
+  background: rgba(19, 20, 26, 0.5);
+  backdrop-filter: blur(5px);
+}
