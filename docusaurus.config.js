@@ -58,7 +58,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/EasyA-Tech/layer-ui-react',
+            href: 'https://github.com/EasyA-Tech/easya-layer',
             label: 'GitHub',
             position: 'right',
           },
@@ -77,11 +77,11 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/',
+                to: '/tutorials/intro',
               },
               {
                 label: 'Components',
-                to: '/components',
+                to: '/category/components---basics',
               },
             ],
           },
@@ -99,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/EasyA-Tech/layer-ui-react',
+                href: 'https://github.com/EasyA-Tech/easya-layer',
               },
               {
                 label: 'Starter Template',
